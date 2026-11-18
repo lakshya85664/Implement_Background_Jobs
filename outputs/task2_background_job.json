@@ -1,0 +1,28 @@
+{
+  "api_response": {
+    "job_id": "JOB-3BDAF70B",
+    "status": "queued",
+    "message": "Invoice job accepted for background processing"
+  },
+  "status_immediately_after_submission": "queued",
+  "queue_pending_after_submission": 1,
+  "worker_response": {
+    "job_id": "JOB-3BDAF70B",
+    "status": "completed",
+    "pdf_path": "artifacts\\INV-TASK2-001.pdf",
+    "delivery_id": "DEL-0001"
+  },
+  "final_status": "completed",
+  "attempts": 1,
+  "result": {
+    "success": true,
+    "invoice_id": "INV-TASK2-001",
+    "pdf_path": "artifacts\\INV-TASK2-001.pdf",
+    "delivery_id": "DEL-0001",
+    "error_type": null,
+    "error_message": null,
+    "completed_at": "2026-11-18T12:26:10.888484Z"
+  },
+  "delivery_count": 1,
+  "queue_pending_after_processing": 0
+}

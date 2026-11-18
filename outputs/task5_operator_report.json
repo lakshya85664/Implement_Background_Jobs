@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-11-18T13:27:57.980002+00:00",
+  "project": "Implement Background Jobs",
+  "expected_evidence_count": 4,
+  "found_evidence_count": 4,
+  "valid_evidence_count": 4,
+  "evidence_complete": true,
+  "json_evidence": {
+    "task2_background_job": {
+      "path": "outputs\\task2_background_job.json",
+      "exists": true,
+      "valid": true,
+      "errors": []
+    },
+    "task4_observability": {
+      "path": "outputs\\task4_observability.json",
+      "exists": true,
+      "valid": true,
+      "errors": []
+    }
+  },
+  "pdf_artifacts": {
+    "task2_invoice_pdf": {
+      "path": "artifacts\\INV-TASK2-001.pdf",
+      "exists": true,
+      "valid": true,
+      "message": "valid_pdf"
+    },
+    "task4_invoice_pdf": {
+      "path": "artifacts\\task4\\INV-TASK4-001.pdf",
+      "exists": true,
+      "valid": true,
+      "message": "valid_pdf"
+    }
+  },
+  "limitations": [
+    "The queue and job store are in-memory.",
+    "Delivery is simulated using local fake adapters.",
+    "Retry backoff is recorded but not time-scheduled.",
+    "Timeout metadata does not interrupt synchronous calls.",
+    "Metrics are in-memory demonstration metrics."
+  ]
+}
